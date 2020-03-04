@@ -11,6 +11,7 @@
     <hr>
     <a href="index.html">Home</a>
     <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
     <hr>
     
     <table cellspacing = 15>
@@ -33,18 +34,28 @@
         
         
         
-        <table>
+        <table cellspacing=5>
             <tr>
                 <td><label for="fName">First Name</label></td>
-                <td><input type="text" name="fName"id="fName"></td>
+                <td><input type="text" pattern="[a-z]{2, 10}" name="fName"id="fName" required></td>
             </tr>
             <tr>
                 <td><label for="sName">Second Name</label></td>
-                <td><input type="text" name="sName" id="sName"><br></td>
+                <td><input type="text" pattern="[a-z]{2, 10}" name="sName" id="sName" required><br></td>
             </tr>
             <tr>
                 <td><label for="email">Email</label></td>
                 <td><input type="email" name="email" id="email"><br></td>
+            </tr>
+            <tr>
+                <td><label for="pword">Password</label></td>
+                <td><input type="password" pattern="{8,20}" name="pword" id="pword" required></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Tel. No.</label></td>
+                <td>09 - <input type="tel" pattern="[0-9]{2}" name="tel" id="tel" size="2" required>
+                    <input type="tel" pattern="[0-9]{6}" name="tel1" id="tel1" size="6" required>
+                </td>
             </tr>
             <tr>
                 <td><label for="country">Country</label></td>
