@@ -1,0 +1,62 @@
+body{
+    background-color: lavender;
+    margin: 10px;
+    /* border: solid white 15px; */
+}
+
+header{
+    background-color: rgba(20, 200, 95, 0.2);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    border-bottom: solid 5px;
+    position: relative;
+    top: 40px;
+    margin-top: 50px;
+}
+
+article{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    padding: 0px 30px;
+}
+
+/* link style */
+nav > ul > li{
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+}
+
+img[src="asset/img/profile/eagle.gif"]{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+.title{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.date{
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 35px;
+}
+
