@@ -28,12 +28,22 @@ header article{
     vertical-align: middle;
 }
 
+ul{
+    padding-left: 2%;
+}
+
+ul li{
+    margin: 0.5%;
+    line-height: 1.3rem;
+}
+
 h1{
     font-size: 2rem;
 }
 
-h2{
-    font-size: 1.5rem;
+h3{
+    font-size: 1.2rem;
+    margin: 1%;
 }
 
 p{
@@ -42,6 +52,42 @@ p{
 
 section{
     clear: left;
+    border-bottom: solid 1px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 3%;
+    border-bottom: solid 1px;
+}
+
+.grid{
+    display: inline-grid;
+    grid-template-columns: repeat(2,auto);
+    text-align: center;
+}
+
+.grid div{
+    margin: 10px;
+}
+
+.th{
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    min-width: 45px;
+    min-height: 16px;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 30%;
+}
+
+input[type="submit"]:hover{
+    background-color: gray;
 }
 
 #container{
