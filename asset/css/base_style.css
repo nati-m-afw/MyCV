@@ -103,3 +103,21 @@ input[type="submit"]:hover{
 #container{
     margin: 0.5%;
 }
+
+@media only screen and (max-width: 600px) {
+    nav{
+        background-color: lightslategrey;
+    }
+    nav a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        line-height: 1.5rem;
+        text-align: center;
+        margin: 0 40%;
+    }
+
+    nav a:click{
+        background-color: teal;
+    }
+  }
