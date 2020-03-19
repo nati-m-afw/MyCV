@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: inline-block;
+    width: 25vw;
+    height: 10vh;
+    position: relative;
+    top: 3vh;
+    left: 3vw;
+}
+
+#eth{
+    border-top: solid 10vh green;
+    background-color: yellow;
+    border-bottom: solid 10vh red;
+}
+
+#spa{
+    height: 15vh;
+    border-top: solid 7.5vh red;
+    background-color: yellow;
+    border-bottom: solid 7.5vh red;
+}
+
+#pol{
+    height: 0;
+    border-top: solid 15vh whitesmoke;
+    border-bottom: solid 15vh red;
+}
+
+#gab{
+    border-top: solid 10vh green;
+    background-color: yellow;
+    border-bottom: solid 10vh teal;
+}
+
+#gam{
+    top: -7vh;
+    border-top: solid 10vh red;
+    border-bottom: solid 10vh green;
+}
+
+#gam div{
+    top: 0;
+    left: 0;
+    height: 8vh;
+    background-color: blue;
+    border-top: solid 1vh whitesmoke;
+    border-bottom: solid 1vh whitesmoke;
+}
+
+#ukr{
+    height: 0;
+    border-top: solid 15vh blue;
+    border-bottom: solid 15vh yellow;
+}
+
+#jpn{
+    width: 5vw;
+    margin: 10vh 10vw;
+    background-color: red;
+    border-radius: 100%;
+}
+
+#kuw{
+    width: 20vw;
+    border-left: solid 5vw black;
+    border-top: solid 10vh green;
+    background-color: whitesmoke;
+    border-bottom: solid 10vh red;
+}
+
+#czk{
+    width: 17vw;
+    height: 0;
+    border-left: solid 8vw blue ;
+    border-top: solid 15vh whitesmoke;
+    border-bottom: solid 15vh red;
+}
+
+#bot{
+    top: -7vh;
+    border-top: solid 10vh teal;
+    border-bottom: solid 10vh teal;
+}
+
+#bot div{
+    top: 0;
+    left: 0;
+    height: 8vh;
+    background-color: black;
+    border-top: solid 1vh whitesmoke;
+    border-bottom: solid 1vh whitesmoke;
+}
+
+#lat{
+    height: 5vh;
+    border-top: solid 12.5vh #ff0038;
+    border-bottom: solid 12.5vh #ff0038;
+}
+
+#mau{
+    top: -4.5vh;
+    height: 15vh;
+    border-top: solid 7.5vh red;
+    border-bottom: solid 7.5vh green;
+}
+
+#mau div{
+    top: 0;
+    left: 0;
+    height: 0;
+    border-top: solid 7.5vh blue;
+    border-bottom: solid 7.5vh yellow;
+}
