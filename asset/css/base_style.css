@@ -22,9 +22,8 @@ header img{
 }
 
 header article{
-    padding: 7% 1.5%;
+    padding: 5% 1.5%;
     line-height: 2.35rem;
-    display: inline-block;
     vertical-align: middle;
 }
 
@@ -59,8 +58,21 @@ footer{
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    padding: 3%;
+    padding: 2%;
     border-bottom: solid 1px;
+}
+
+input[type="submit"]{
+    min-width: 45px;
+    min-height: 16px;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 30%;
+}
+
+input[type="submit"]:hover{
+    background-color: gray;
 }
 
 .grid{
@@ -77,17 +89,15 @@ footer{
     font-weight: bold;
 }
 
-input[type="submit"]{
-    min-width: 45px;
-    min-height: 16px;
-    width: 100%;
-    background-color: dodgerblue;
-    color: white;
-    border-radius: 30%;
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3%;
 }
 
-input[type="submit"]:hover{
-    background-color: gray;
+.flexbox > div{
+    margin: 1%;
 }
 
 #container{
