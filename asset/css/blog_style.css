@@ -5,11 +5,12 @@ body{
 }
 
 header{
-    background-color: rgba(20, 200, 95, 0.2);
+    background-color: rgba(20, 200, 95, 0.9);
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
+    z-index: 1;
 }
 
 section{
@@ -19,6 +20,7 @@ section{
     position: relative;
     top: 40px;
     margin-top: 50px;
+    contain: content;
 }
 
 article{
@@ -36,6 +38,7 @@ nav > ul > li{
 }
 
 nav > ul > li > a{
+    padding: 8px;
     text-decoration: none;
 }
 
@@ -45,7 +48,32 @@ img[src="asset/img/profile/eagle.gif"]{
     border-radius: 100%;
     float: left;
     margin-right: 30px;
-    margin-top: 100px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 2%;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-top: 2.5%;
+}
+
+p{
+    font-size: 1.1rem;
+    line-height: 2.25rem;
+}
+
+em{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+a:hover{
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 10%;
 }
 
 .title{
@@ -60,3 +88,8 @@ img[src="asset/img/profile/eagle.gif"]{
     line-height: 35px;
 }
 
+#intro{
+    position: relative;
+    top: 70px;
+    padding-bottom: 15%;
+}
